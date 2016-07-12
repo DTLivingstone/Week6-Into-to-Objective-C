@@ -1,10 +1,8 @@
 #Week 6 - Class 2
 ##Homework
-* Create a simple AddressBook app. See Book examples, but make sure to disable ARC.
-* write your own userDefaults that uses JSON format
-* manage your memory, create proper setters that retain/copy data when assigned(Dont use @property)
-* **Bonus:**
-	* make a private init to make a true singleton(5 Points)
+* Create a simple AddressBook app. Make sure to disable ARC.
+* Write your own userDefaults that uses JSON format. Make it a Singleton.
+* Manage your memory, create proper setters that retain/copy data when assigned(Dont use @property)
 
 ###Reading Assignment:
 * Programming in Objective-C
