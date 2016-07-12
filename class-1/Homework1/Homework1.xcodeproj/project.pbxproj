@@ -14,6 +14,7 @@
 		634270471D34387500BE3F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634270461D34387500BE3F33 /* Assets.xcassets */; };
 		6342704A1D34387500BE3F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634270481D34387500BE3F33 /* LaunchScreen.storyboard */; };
 		634270531D343F2D00BE3F33 /* StringToWordsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 634270521D343F2D00BE3F33 /* StringToWordsArray.m */; };
+		634270591D354AC800BE3F33 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 634270581D354AC800BE3F33 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,9 @@
 		6342704B1D34387500BE3F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634270511D343F2D00BE3F33 /* StringToWordsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringToWordsArray.h; sourceTree = "<group>"; };
 		634270521D343F2D00BE3F33 /* StringToWordsArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringToWordsArray.m; sourceTree = "<group>"; };
+		634270541D35495E00BE3F33 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		634270571D354AC800BE3F33 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		634270581D354AC800BE3F33 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,10 @@
 				6342704B1D34387500BE3F33 /* Info.plist */,
 				6342703A1D34387500BE3F33 /* Supporting Files */,
 				634270511D343F2D00BE3F33 /* StringToWordsArray.h */,
+				634270541D35495E00BE3F33 /* SampleProtocol.h */,
 				634270521D343F2D00BE3F33 /* StringToWordsArray.m */,
+				634270571D354AC800BE3F33 /* Person.h */,
+				634270581D354AC800BE3F33 /* Person.m */,
 			);
 			path = Homework1;
 			sourceTree = "<group>";
@@ -156,6 +163,7 @@
 			files = (
 				634270421D34387500BE3F33 /* ViewController.m in Sources */,
 				6342703F1D34387500BE3F33 /* AppDelegate.m in Sources */,
+				634270591D354AC800BE3F33 /* Person.m in Sources */,
 				6342703C1D34387500BE3F33 /* main.m in Sources */,
 				634270531D343F2D00BE3F33 /* StringToWordsArray.m in Sources */,
 			);
