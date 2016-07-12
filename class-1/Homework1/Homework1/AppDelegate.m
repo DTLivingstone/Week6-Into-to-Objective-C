@@ -35,7 +35,6 @@
     }
     else if ([input isKindOfClass:[NSArray class]]) {
         
-        NSLog(@"foo");
         NSInteger stringCount = 0;
         NSInteger numCount = 0;
         
@@ -48,7 +47,7 @@
             }
         }
         
-        NSLog(@"Strings: %ld \n Numbers: %ld", (long)stringCount, (long)numCount);
+        NSLog(@"Strings: %ld \n Numbers: %ld", stringCount, numCount);
     }
     return nil;
 }
