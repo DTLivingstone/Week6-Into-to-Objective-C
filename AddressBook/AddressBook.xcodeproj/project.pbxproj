@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63784AB51D3616640094CA0F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784AB41D3616640094CA0F /* Contact.m */; };
 		63B92B4D1D35896A00187CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B92B4C1D35896A00187CD8 /* main.m */; };
+		63B92B551D35997100187CD8 /* DLUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B92B541D35997100187CD8 /* DLUserDefaults.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63784AB31D3616640094CA0F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		63784AB41D3616640094CA0F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		63B92B491D35896A00187CD8 /* AddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B92B4C1D35896A00187CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B92B531D35997100187CD8 /* DLUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUserDefaults.h; sourceTree = "<group>"; };
+		63B92B541D35997100187CD8 /* DLUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUserDefaults.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				63B92B4C1D35896A00187CD8 /* main.m */,
+				63B92B531D35997100187CD8 /* DLUserDefaults.h */,
+				63B92B541D35997100187CD8 /* DLUserDefaults.m */,
+				63784AB31D3616640094CA0F /* Contact.h */,
+				63784AB41D3616640094CA0F /* Contact.m */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B92B551D35997100187CD8 /* DLUserDefaults.m in Sources */,
+				63784AB51D3616640094CA0F /* Contact.m in Sources */,
 				63B92B4D1D35896A00187CD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +221,7 @@
 		63B92B511D35896A00187CD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +229,7 @@
 		63B92B521D35896A00187CD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +253,7 @@
 				63B92B521D35896A00187CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

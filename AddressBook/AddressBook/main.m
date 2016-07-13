@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DLUserDefaults.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+//        [[DLUserDefaults sharedDefaults]setObject:@(sender.isOn) forKey:@"com.michaelbabiy.kUserPreferences"];
     }
     return 0;
 }
