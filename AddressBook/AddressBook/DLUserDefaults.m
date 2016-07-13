@@ -63,7 +63,7 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self.preferences options:NSJSONWritingPrettyPrinted error:&error];
     if (!error && jsonData) {
         if ([jsonData writeToFile:[[self preferencesURL]path] atomically:YES]) {
-            [[NSNotificationCenter defaultCenter]postNotificationName:kDLUserDefaultsDidUpdate object:nil];
+//            [[NSNotificationCenter defaultCenter]postNotificationName:kDLUserDefaultsDidUpdate object:nil];
         }
     }
 }

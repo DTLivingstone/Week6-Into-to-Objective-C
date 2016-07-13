@@ -54,7 +54,42 @@
     return _phone;
 }
 
+-(void)setEmail:(NSString *)email {
+    
+    if(_phone != email){
+        [email retain];
+        [_email release];
+        
+        _email = email;
+    }
+}
 
+-(NSString *)email {
+    return _email;
+}
 
+-(void)setTwitter:(NSString *)twitter {
+    
+    if(_twitter != twitter){
+        [twitter retain];
+        [_twitter release];
+        
+        _twitter = twitter;
+    }
+}
+
+-(NSString *)twitter {
+    return _twitter;
+}
+
+-(void)dealloc{
+    
+    [_name release];
+    [_address release];
+    [_email release];
+    [_twitter release];
+    
+    [super dealloc];
+}
 
 @end

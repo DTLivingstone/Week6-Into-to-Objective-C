@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString * _Nonnull const kDLUserDefaultsDidUpdate = @"com.michaelbabiy.kDLUserDefaultsDidUpdate";
-
 @interface DLUserDefaults : NSObject
 
 + (nonnull instancetype)sharedDefaults;
