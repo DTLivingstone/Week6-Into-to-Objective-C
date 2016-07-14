@@ -33,8 +33,7 @@
     return self;
 }
 
-- (instancetype)init
-{
+- (instancetype)init {
     return [self initWithFirst:@"" last:@"" email:@"" phone:@"" twitter:@""];
 }
 
@@ -97,8 +96,7 @@
 
 #pragma mark - NSCoding
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
-{
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
     NSString *first = [aDecoder decodeObjectForKey:@"first"];
     NSString *last = [aDecoder decodeObjectForKey:@"last"];
     NSString *email = [aDecoder decodeObjectForKey:@"email"];
@@ -108,10 +106,9 @@
     return [self initWithFirst:first last:last email:email phone:phone twitter:twitter];
 }
 
-- (void)encodeWithCoder:(NSCoder *)aCoder
-{
-    [aCoder encodeObject:self.first forKey:@"firstName"];
-    [aCoder encodeObject:self.last forKey:@"lastName"];
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeObject:self.first forKey:@"first"];
+    [aCoder encodeObject:self.last forKey:@"last"];
     [aCoder encodeObject:self.email forKey:@"email"];
     [aCoder encodeObject:self.phone forKey:@"phone"];
 }

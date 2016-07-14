@@ -7,7 +7,18 @@
 //
 
 #import "Contact+Extension.h"
+#import "NSString+Extension.h"
 
-@implementation Contact_Extension
+@implementation Contact (Extension)
+
+- (BOOL)isValid {
+    if (self.first.length > 0 && self.last.length > 0) {
+        return YES;
+    }
+    
+    else {
+        return NO;
+    }
+}
 
 @end

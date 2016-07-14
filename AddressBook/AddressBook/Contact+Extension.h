@@ -8,6 +8,8 @@
 
 #import "Contact.h"
 
-@interface Contact_Extension : Contact
+@interface Contact (Extension)
+
+- (BOOL)isValid;
 
 @end

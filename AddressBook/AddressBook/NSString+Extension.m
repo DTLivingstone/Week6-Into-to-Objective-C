@@ -8,6 +8,13 @@
 
 #import "NSString+Extension.h"
 
-@implementation NSString_Extension
+@implementation NSString (Extension)
+
++ (NSString *)archivePath {
+    NSArray *documentsDirectories = [[NSFileManager defaultManager]URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    NSURL *documentsDirectory = [documentsDirectories firstObject];
+    
+    return [[documentsDirectory URLByAppendingPathComponent:@"store"]path];
+}
 
 @end

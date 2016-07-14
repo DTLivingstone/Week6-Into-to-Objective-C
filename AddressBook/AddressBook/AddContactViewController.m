@@ -7,29 +7,39 @@
 //
 
 #import "AddContactViewController.h"
-//#import "Contact+Extension.h"
-//#import "Store.h"
+#import "Contact+Extension.h"
+#import "Store.h"
 
 @interface AddContactViewController ()
 
 @property (strong, nonatomic) Contact *contact;
 
-// ib outlets
+@property (weak, nonatomic) IBOutlet UITextField *firstField;
+@property (weak, nonatomic) IBOutlet UITextField *lastField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneField;
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *twitterField;
+
+
+- (IBAction)saveSelected:(UIButton *)sender;
 
 @end
 
-
 @implementation AddContactViewController
 
++ (NSString *)identifier
+{
+    return NSStringFromClass(self);
+}
 
-
-
-
-
-
-
-
-
+- (Contact *)contact
+{
+    if (!_contact) {
+        _contact = [[Contact alloc]init];
+    }
+    
+    return _contact;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,6 +47,20 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (IBAction)saveSelected:(UIButton *)sender {
+    self.contact.first = self.firstField.text;
+    self.contact.last = self.lastField.text;
+    self.contact.email = self.emailField.text;
+    self.contact.phone = self.phoneField.text;
+    self.contact.phone = self.phoneField.text;
+    
+    if (self.contact.isValid && self.completion) {
+        [[Store shared]add:self.contact];
+        [self completion]();
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 @end

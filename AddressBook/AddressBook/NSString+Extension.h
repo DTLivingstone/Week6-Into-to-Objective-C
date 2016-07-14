@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString_Extension : NSString
+@interface NSString (Extension)
+
++ (NSString *)archivePath;
 
 @end

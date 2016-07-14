@@ -15,6 +15,9 @@
 		63784B021D36DF2C0094CA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63784B011D36DF2C0094CA0F /* Assets.xcassets */; };
 		63784B151D36F4990094CA0F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B141D36F4990094CA0F /* Contact.m */; };
 		63784B181D3769B50094CA0F /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B171D3769B50094CA0F /* AddContactViewController.m */; };
+		63784B1B1D37D1570094CA0F /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B1A1D37D1570094CA0F /* Store.m */; };
+		63784B1E1D37E65A0094CA0F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B1D1D37E65A0094CA0F /* NSString+Extension.m */; };
+		63784B211D37E76C0094CA0F /* Contact+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B201D37E76C0094CA0F /* Contact+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		63784B141D36F4990094CA0F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		63784B161D3769B50094CA0F /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
 		63784B171D3769B50094CA0F /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		63784B191D37D1570094CA0F /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		63784B1A1D37D1570094CA0F /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		63784B1C1D37E65A0094CA0F /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		63784B1D1D37E65A0094CA0F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		63784B1F1D37E76C0094CA0F /* Contact+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+Extension.h"; sourceTree = "<group>"; };
+		63784B201D37E76C0094CA0F /* Contact+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,8 @@
 		63784B0F1D36EF8D0094CA0F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				63784B191D37D1570094CA0F /* Store.h */,
+				63784B1A1D37D1570094CA0F /* Store.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -133,6 +144,10 @@
 		63784B121D36EFEA0094CA0F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				63784B1C1D37E65A0094CA0F /* NSString+Extension.h */,
+				63784B1D1D37E65A0094CA0F /* NSString+Extension.m */,
+				63784B1F1D37E76C0094CA0F /* Contact+Extension.h */,
+				63784B201D37E76C0094CA0F /* Contact+Extension.m */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -209,9 +224,12 @@
 				63784AFA1D36DF2C0094CA0F /* ViewController.m in Sources */,
 				63784B181D3769B50094CA0F /* AddContactViewController.m in Sources */,
 				63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */,
+				63784B1B1D37D1570094CA0F /* Store.m in Sources */,
 				63784B151D36F4990094CA0F /* Contact.m in Sources */,
 				63784AF71D36DF2C0094CA0F /* AppDelegate.m in Sources */,
 				63784AF41D36DF2C0094CA0F /* main.m in Sources */,
+				63784B1E1D37E65A0094CA0F /* NSString+Extension.m in Sources */,
+				63784B211D37E76C0094CA0F /* Contact+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
