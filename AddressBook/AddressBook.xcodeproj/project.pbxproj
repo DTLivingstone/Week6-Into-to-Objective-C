@@ -14,6 +14,7 @@
 		63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63784AFE1D36DF2C0094CA0F /* AddressBook.xcdatamodeld */; };
 		63784B021D36DF2C0094CA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63784B011D36DF2C0094CA0F /* Assets.xcassets */; };
 		63784B151D36F4990094CA0F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B141D36F4990094CA0F /* Contact.m */; };
+		63784B181D3769B50094CA0F /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B171D3769B50094CA0F /* AddContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		63784B061D36DF2C0094CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63784B131D36F4990094CA0F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		63784B141D36F4990094CA0F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		63784B161D3769B50094CA0F /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		63784B171D3769B50094CA0F /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 			children = (
 				63784AF81D36DF2C0094CA0F /* ViewController.h */,
 				63784AF91D36DF2C0094CA0F /* ViewController.m */,
+				63784B161D3769B50094CA0F /* AddContactViewController.h */,
+				63784B171D3769B50094CA0F /* AddContactViewController.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63784AFA1D36DF2C0094CA0F /* ViewController.m in Sources */,
+				63784B181D3769B50094CA0F /* AddContactViewController.m in Sources */,
 				63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */,
 				63784B151D36F4990094CA0F /* Contact.m in Sources */,
 				63784AF71D36DF2C0094CA0F /* AppDelegate.m in Sources */,
