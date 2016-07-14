@@ -13,7 +13,7 @@
 		63784AFD1D36DF2C0094CA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63784AFB1D36DF2C0094CA0F /* Main.storyboard */; };
 		63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63784AFE1D36DF2C0094CA0F /* AddressBook.xcdatamodeld */; };
 		63784B021D36DF2C0094CA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63784B011D36DF2C0094CA0F /* Assets.xcassets */; };
-		63784B051D36DF2C0094CA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63784B031D36DF2C0094CA0F /* LaunchScreen.storyboard */; };
+		63784B151D36F4990094CA0F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B141D36F4990094CA0F /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,9 @@
 		63784AFC1D36DF2C0094CA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63784AFF1D36DF2C0094CA0F /* AddressBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddressBook.xcdatamodel; sourceTree = "<group>"; };
 		63784B011D36DF2C0094CA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63784B041D36DF2C0094CA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63784B061D36DF2C0094CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63784B131D36F4990094CA0F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		63784B141D36F4990094CA0F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +61,13 @@
 		63784AF11D36DF2C0094CA0F /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				63784AF51D36DF2C0094CA0F /* AppDelegate.h */,
-				63784AF61D36DF2C0094CA0F /* AppDelegate.m */,
-				63784AF81D36DF2C0094CA0F /* ViewController.h */,
-				63784AF91D36DF2C0094CA0F /* ViewController.m */,
-				63784AFB1D36DF2C0094CA0F /* Main.storyboard */,
-				63784B011D36DF2C0094CA0F /* Assets.xcassets */,
-				63784B031D36DF2C0094CA0F /* LaunchScreen.storyboard */,
-				63784B061D36DF2C0094CA0F /* Info.plist */,
+				63784B0C1D36EF500094CA0F /* App Global */,
+				63784B0D1D36EF5C0094CA0F /* Model */,
+				63784B0F1D36EF8D0094CA0F /* Service */,
+				63784B101D36EFB00094CA0F /* View */,
+				63784B111D36EFC10094CA0F /* View Controller */,
+				63784B121D36EFEA0094CA0F /* Extension */,
 				63784AFE1D36DF2C0094CA0F /* AddressBook.xcdatamodeld */,
-				63784AF21D36DF2C0094CA0F /* Supporting Files */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -80,6 +78,58 @@
 				63784AF31D36DF2C0094CA0F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63784B0C1D36EF500094CA0F /* App Global */ = {
+			isa = PBXGroup;
+			children = (
+				63784AF51D36DF2C0094CA0F /* AppDelegate.h */,
+				63784AF61D36DF2C0094CA0F /* AppDelegate.m */,
+				63784B061D36DF2C0094CA0F /* Info.plist */,
+				63784AF21D36DF2C0094CA0F /* Supporting Files */,
+			);
+			name = "App Global";
+			sourceTree = "<group>";
+		};
+		63784B0D1D36EF5C0094CA0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63784B131D36F4990094CA0F /* Contact.h */,
+				63784B141D36F4990094CA0F /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		63784B0F1D36EF8D0094CA0F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		63784B101D36EFB00094CA0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63784AFB1D36DF2C0094CA0F /* Main.storyboard */,
+				63784B011D36DF2C0094CA0F /* Assets.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		63784B111D36EFC10094CA0F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63784AF81D36DF2C0094CA0F /* ViewController.h */,
+				63784AF91D36DF2C0094CA0F /* ViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		63784B121D36EFEA0094CA0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63784B051D36DF2C0094CA0F /* LaunchScreen.storyboard in Resources */,
 				63784B021D36DF2C0094CA0F /* Assets.xcassets in Resources */,
 				63784AFD1D36DF2C0094CA0F /* Main.storyboard in Resources */,
 			);
@@ -154,6 +203,7 @@
 			files = (
 				63784AFA1D36DF2C0094CA0F /* ViewController.m in Sources */,
 				63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */,
+				63784B151D36F4990094CA0F /* Contact.m in Sources */,
 				63784AF71D36DF2C0094CA0F /* AppDelegate.m in Sources */,
 				63784AF41D36DF2C0094CA0F /* main.m in Sources */,
 			);
@@ -168,14 +218,6 @@
 				63784AFC1D36DF2C0094CA0F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		63784B031D36DF2C0094CA0F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63784B041D36DF2C0094CA0F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
