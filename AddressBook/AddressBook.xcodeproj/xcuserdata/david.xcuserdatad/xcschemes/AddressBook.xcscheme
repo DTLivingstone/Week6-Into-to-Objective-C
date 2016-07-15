@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63B92B481D35896A00187CD8"
-               BuildableName = "AddressBook"
+               BlueprintIdentifier = "63784AEE1D36DF2C0094CA0F"
+               BuildableName = "AddressBook.app"
                BlueprintName = "AddressBook"
                ReferencedContainer = "container:AddressBook.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63B92B481D35896A00187CD8"
-            BuildableName = "AddressBook"
+            BlueprintIdentifier = "63784AEE1D36DF2C0094CA0F"
+            BuildableName = "AddressBook.app"
             BlueprintName = "AddressBook"
             ReferencedContainer = "container:AddressBook.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63B92B481D35896A00187CD8"
-            BuildableName = "AddressBook"
+            BlueprintIdentifier = "63784AEE1D36DF2C0094CA0F"
+            BuildableName = "AddressBook.app"
             BlueprintName = "AddressBook"
             ReferencedContainer = "container:AddressBook.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63B92B481D35896A00187CD8"
-            BuildableName = "AddressBook"
+            BlueprintIdentifier = "63784AEE1D36DF2C0094CA0F"
+            BuildableName = "AddressBook.app"
             BlueprintName = "AddressBook"
             ReferencedContainer = "container:AddressBook.xcodeproj">
          </BuildableReference>

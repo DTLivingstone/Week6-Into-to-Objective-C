@@ -2,35 +2,43 @@
 //  Contact.h
 //  AddressBook
 //
-//  Created by David Livingstone on 7/12/16.
+//  Created by David Livingstone on 7/13/16.
 //  Copyright © 2016 David Livingstone. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Contact : NSObject
-
-{
-    NSString *_name;
-    NSString *_address;
-    NSString *_phone;
+@interface Contact : NSObject {
+    NSString *_first;
+    NSString *_last;
     NSString *_email;
+    NSString *_phone;
     NSString *_twitter;
 }
 
--(void)setName:(NSString *)name;
--(NSString *)name;
+#pragma mark - initializer
 
--(void)setAddress:(NSString *)address;
--(NSString *)address;
+- (instancetype)initWithFirst:(NSString *)first
+                            last:(NSString *)last
+                            email:(NSString *)email
+                            phone:(NSString *)phone
+                            twitter:(NSString *)twitter;
 
--(void)setPhone:(NSString *)phone;
--(NSString *)phone;
+#pragma mark - setters/getters
 
--(void)setEmail:(NSString *)email;
--(NSString *)email;
+- (void)setFirst:(NSString *)first;
+- (NSString *)first;
 
--(void)setTwitter:(NSString *)twitter;
--(NSString *)twitter;
+- (void)setLast:(NSString *)last;
+- (NSString *)last;
+
+- (void)setEmail:(NSString *)email;
+- (NSString *)email;
+
+- (void)setPhone:(NSString *)phone;
+- (NSString *)phone;
+
+- (void)setTwitter:(NSString *)twitter;
+- (NSString *)twitter;
 
 @end

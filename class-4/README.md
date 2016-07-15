@@ -15,8 +15,8 @@
 	* Update StudentStore to include completions in add:, remove:, removeItIndexPath: methods.
 
 ###Reading Assignment:
-* Cracking the coding Interview/Programming Interviews Exposed:
-  * Binary Search Trees
+* Programming in Objective-C:
+  * **Chapter 9:** Polymorphism, Dynamic Typing and Dynamic Binding
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
