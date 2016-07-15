@@ -47,7 +47,7 @@
                     <navigationItem key="navigationItem" id="IBw-nv-f1v">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ewa-AC-d3Q">
                             <connections>
-                                <segue destination="9Hc-Da-3FX" kind="show" id="18B-LM-qfF"/>
+                                <segue destination="9Hc-Da-3FX" kind="show" identifier="AddContactViewController" id="18B-LM-qfF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

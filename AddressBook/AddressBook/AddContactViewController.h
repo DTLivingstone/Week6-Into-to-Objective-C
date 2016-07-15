@@ -12,6 +12,8 @@ typedef void(^AddContactViewControllerCompletion)();
 
 @interface AddContactViewController : UIViewController
 
+//- (void)showAlertView;
+
 @property (copy, nonatomic) AddContactViewControllerCompletion completion;
 
 + (NSString *)identifier;

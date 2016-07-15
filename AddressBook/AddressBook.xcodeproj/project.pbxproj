@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6303DE441D38580700166DE3 /* AddressBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AddressBook.entitlements; sourceTree = "<group>"; };
 		63784AEF1D36DF2C0094CA0F /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63784AF31D36DF2C0094CA0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63784AF51D36DF2C0094CA0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		63784AF11D36DF2C0094CA0F /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				6303DE441D38580700166DE3 /* AddressBook.entitlements */,
 				63784B0C1D36EF500094CA0F /* App Global */,
 				63784B0D1D36EF5C0094CA0F /* Model */,
 				63784B0F1D36EF8D0094CA0F /* Service */,
@@ -183,6 +185,12 @@
 				TargetAttributes = {
 					63784AEE1D36DF2C0094CA0F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y46ZLX9Z9E;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -335,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AddressBook/AddressBook.entitlements;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tl.david.AddressBook;
@@ -346,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AddressBook/AddressBook.entitlements;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tl.david.AddressBook;
@@ -372,6 +382,7 @@
 				63784B0B1D36DF2C0094CA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

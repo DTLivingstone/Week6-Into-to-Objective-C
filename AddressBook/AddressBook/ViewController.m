@@ -22,8 +22,8 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString: [AddContactViewController identifier]]) {
-        AddContactViewController *addViewController = (AddContactViewController *)segue.destinationViewController;
-        addViewController.completion = ^ {
+        AddContactViewController *addContactViewController = (AddContactViewController *)segue.destinationViewController;
+        addContactViewController.completion = ^ {
             [self.tableView reloadData];
         };
     }

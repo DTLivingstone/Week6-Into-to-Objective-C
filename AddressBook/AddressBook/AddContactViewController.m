@@ -41,6 +41,10 @@
     return _contact;
 }
 
+//- (void)showAlertView {
+//    
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
@@ -54,10 +58,19 @@
     self.contact.last = self.lastField.text;
     self.contact.email = self.emailField.text;
     self.contact.phone = self.phoneField.text;
-    self.contact.phone = self.phoneField.text;
+    self.contact.twitter = self.twitterField.text;
+    
+    if (self.contact.isValid) {
+        NSLog(@"valid!");
+    }
+    
+    if (self.completion) {
+        NSLog(@"completion!");
+    }
     
     if (self.contact.isValid && self.completion) {
         [[Store shared]add:self.contact];
+//        NSLog([Store shared])
         [self completion]();
         [self.navigationController popViewControllerAnimated:YES];
     }
