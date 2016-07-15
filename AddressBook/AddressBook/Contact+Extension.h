@@ -7,8 +7,13 @@
 //
 
 #import "Contact.h"
+@import CloudKit;
+
+typedef void(^ContactCompletion)(NSArray<Contact *> *contacts);
 
 @interface Contact (Extension)
+
++ (void)contactsFromRecords:(NSArray<CKRecord *> *)records completion:(ContactCompletion)completion;
 
 - (BOOL)isValid;
 
