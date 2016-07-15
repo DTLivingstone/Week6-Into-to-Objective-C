@@ -18,6 +18,7 @@
 		63784B1B1D37D1570094CA0F /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B1A1D37D1570094CA0F /* Store.m */; };
 		63784B1E1D37E65A0094CA0F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B1D1D37E65A0094CA0F /* NSString+Extension.m */; };
 		63784B211D37E76C0094CA0F /* Contact+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63784B201D37E76C0094CA0F /* Contact+Extension.m */; };
+		63D82FB91D39302200A4FC40 /* CloudService.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82FB81D39302200A4FC40 /* CloudService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		63784B1D1D37E65A0094CA0F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		63784B1F1D37E76C0094CA0F /* Contact+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+Extension.h"; sourceTree = "<group>"; };
 		63784B201D37E76C0094CA0F /* Contact+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+Extension.m"; sourceTree = "<group>"; };
+		63D82FB71D39302200A4FC40 /* CloudService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudService.h; sourceTree = "<group>"; };
+		63D82FB81D39302200A4FC40 /* CloudService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		63784B0F1D36EF8D0094CA0F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				63D82FB71D39302200A4FC40 /* CloudService.h */,
+				63D82FB81D39302200A4FC40 /* CloudService.m */,
 				63784B191D37D1570094CA0F /* Store.h */,
 				63784B1A1D37D1570094CA0F /* Store.m */,
 			);
@@ -234,6 +239,7 @@
 				63784B001D36DF2C0094CA0F /* AddressBook.xcdatamodeld in Sources */,
 				63784B1B1D37D1570094CA0F /* Store.m in Sources */,
 				63784B151D36F4990094CA0F /* Contact.m in Sources */,
+				63D82FB91D39302200A4FC40 /* CloudService.m in Sources */,
 				63784AF71D36DF2C0094CA0F /* AppDelegate.m in Sources */,
 				63784AF41D36DF2C0094CA0F /* main.m in Sources */,
 				63784B1E1D37E65A0094CA0F /* NSString+Extension.m in Sources */,
